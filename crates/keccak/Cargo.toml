@@ -12,7 +12,7 @@ rust-version = "1.66.1"
 
 [dependencies]
 ff = { workspace = true }
-bellpepper-core = { workspace = true }
+bellpepper-core = { git = "https://github.com/lurk-lab/bellpepper", branch = "dev", default-features = false }
 
 [dev-dependencies]
 bitvec = "1.0.1"
